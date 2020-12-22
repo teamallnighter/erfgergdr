@@ -1,5 +1,5 @@
 +++
-author = "Marty Connelly"
+author = ""
 categories = ["Townhome"]
 date = 2020-12-21T07:00:00Z
 description = ""
