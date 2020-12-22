@@ -5,6 +5,10 @@ fields:
 - type: text
   name: title
   label: building name
+- type: text
+  name: type
+  default: post
+  label: OCP
 - type: datetime
   name: date
   label: date
@@ -16,13 +20,21 @@ fields:
   label: author
 - type: text
   name: description
-  label: description
+  label: Address
 - type: list
   name: categories
-  label: categories
-- type: text
-  name: type
-  label: type
-  default: post
+  label: Type
+  config:
+    use_select: false
+- name: price
+  type: number
+  label: Price
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 pages:
 - content/falconridge-estates.md
