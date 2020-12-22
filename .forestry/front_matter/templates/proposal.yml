@@ -1,4 +1,30 @@
 ---
 label: proposal
 hide_body: false
-fields: []
+fields:
+- name: building_name
+  type: text
+  config:
+    required: false
+  label: building name
+  description: enter the buildings name
+- name: building_ocp
+  type: text
+  config:
+    required: false
+  label: Building OCP
+- name: building_address
+  type: text
+  config:
+    required: false
+  label: Building Address
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: An Image
+- name: file
+  type: file
+  config:
+    maxSize: 64
+  label: File
